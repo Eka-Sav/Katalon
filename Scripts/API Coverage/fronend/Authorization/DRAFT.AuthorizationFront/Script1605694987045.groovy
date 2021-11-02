@@ -40,7 +40,7 @@ WebUI.click(findTestObject('UI-Electronics/SignInPage/SignInSubmitButton'))
 //	
 //	String GetText = WebUI.getText(findTestObject('UI-Electronics/Header/HeaderLogoutText'))
 //	
-//	WebUI.verifyMatch(GetText, GlobalVariable.firstName, false)
+//	WebUI.verifyMatch(GetText, GlobalVariable.contactFirstName, false)
 //	
 //	}
 

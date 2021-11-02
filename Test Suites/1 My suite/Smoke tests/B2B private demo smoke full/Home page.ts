@@ -15,24 +15,24 @@
       <guid>2f16fcc2-c223-44dd-bfef-16b0ebdb0fc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Smoke Test B2B/Browser/OpenBrowser</testCaseId>
+      <testCaseId>Test Cases/1 UI-B2B smoke tests ST/Browser/OpenBrowser</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e0f938da-5d5d-42ed-8200-4ac6281903ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Smoke Test B2B/Home page/Subscribe</testCaseId>
+      <testCaseId>Test Cases/1 UI-B2B smoke tests ST/LogIn page/Main elements/Subscribe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2350c0d3-3b11-40a4-bd8b-3e846376010e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Smoke Test B2B/Home page/Access link to B2B</testCaseId>
+      <testCaseId>Test Cases/1 UI-B2B smoke tests ST/LogIn page/Main elements/Access link to B2B</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a75e7847-9d0c-4c3a-a5d9-ef15453aae15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Smoke Test B2B/Browser/Close browser</testCaseId>
+      <testCaseId>Test Cases/1 UI-B2B smoke tests ST/Browser/Close browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

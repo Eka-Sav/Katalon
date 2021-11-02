@@ -33,7 +33,7 @@ WebUI.callTestCase(findTestCase('API Coverage/ModuleSearch/DropIndex'), [ : ], F
 // Search new contact
 WebUI.comment('TEST CASE: Contact search')
 responseSearch = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Contacts/ContactsSearch'))
-WS.verifyElementPropertyValue(responseSearch, 'results[0].firstName', GlobalVariable.firstName)
+WS.verifyElementPropertyValue(responseSearch, 'results[0].firstName', GlobalVariable.contactFirstName)
 WS.verifyElementPropertyValue(responseSearch, 'totalCount', 1)
 
 
@@ -67,5 +67,5 @@ WebUI.callTestCase(findTestCase('API Coverage/ModuleSearch/DropIndex'), [ : ], F
 
 // Search new contact. Count 0 in result - contact was deleted
 WebUI.comment('TEST CASE: Contact search')
-responseSearch1 = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Contacts/ContactsSearch', [('searchPhrase') : GlobalVariable.firstName] ))
+responseSearch1 = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Contacts/ContactsSearch', [('searchPhrase') : GlobalVariable.contactFirstName] ))
 WS.verifyElementPropertyValue(responseSearch1, 'totalCount', 0)

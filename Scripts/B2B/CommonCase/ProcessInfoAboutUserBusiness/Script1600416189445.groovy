@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('UI-B2B/RegistrationPage/InputFirstName'))
 
-WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputFirstName'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputFirstName'), GlobalVariable.contactFirstName)
 
 WebUI.click(findTestObject('UI-B2B/RegistrationPage/InputLastName'))
 
-WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputLastName'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputLastName'), GlobalVariable.contactLastName)
 
 WebUI.click(findTestObject('UI-B2B/RegistrationPage/InputEmail'))
 
-WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputEmail'), GlobalVariable.email)
+WebUI.setText(findTestObject('UI-B2B/RegistrationPage/InputEmail'), GlobalVariable.contactEmail)
 
 WebUI.click(findTestObject('UI-B2B/RegistrationPage/InputPhone'))
 

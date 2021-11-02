@@ -90,7 +90,7 @@ WS.delay(10)
 
 WebUI.comment(" TEST CASE : Delete all created members")
 WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Members/MemberDeleteBulk', [
-	('keyword') : GlobalVariable.firstName
+	('keyword') : GlobalVariable.contactFirstName
 	]))
 
 
@@ -101,7 +101,7 @@ WS.delay(10)
 
 WebUI.comment('TEST CASE : Search members. Count 0 in result - contact was deleted')
 responseContactsSearch = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Members/MemberSearch', [
-	('searchPhrase') : GlobalVariable.firstName
+	('searchPhrase') : GlobalVariable.contactFirstName
 	]))
 // Count verification couldn't be stable for use, because it depends on the time of build index
 //WS.verifyElementPropertyValue(responseContactsSearch, 'totalCount', 0)

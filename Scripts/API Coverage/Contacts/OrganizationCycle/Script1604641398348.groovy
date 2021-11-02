@@ -52,5 +52,5 @@ WebUI.callTestCase(findTestCase('API Coverage/ModuleSearch/DropIndex'), [ : ], F
 
 // Search deleted org. Count 0 in result - org was deleted
 WebUI.comment('TEST CASE: Organization search')
-responseOrg = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.firstName ] ))
+responseOrg = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.contactFirstName ] ))
 WS.verifyElementPropertyValue(responseOrg, 'totalCount', 0)

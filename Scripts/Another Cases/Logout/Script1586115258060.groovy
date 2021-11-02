@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('UI-OrderCart/SignIn_FromHeader'), [:], FailureH
 
 WebUI.click(findTestObject('UI-Electronics/Header/HeaderLogoutButton'))
 
-WebUI.verifyTextNotPresent(GlobalVariable.firstName, false)
+WebUI.verifyTextNotPresent(GlobalVariable.contactFirstName, false)
 
 WebUI.closeBrowser()
 

@@ -21,9 +21,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.comment('TEST CASE: Create new user')
 
 // create unique email
-GlobalVariable.email = new Random().nextInt(100)+'@email.com'
+GlobalVariable.contactEmail = new Random().nextInt(100)+'@email.com'
 response1 = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Platform/UserCreate', [
-	('email') : GlobalVariable.email,
+	('email') : GlobalVariable.contactEmail,
 	('userName') : GlobalVariable.userName
 	]))
 WS.verifyElementPropertyValue(response1, 'succeeded', true)
@@ -78,10 +78,10 @@ WebUI.comment(GlobalVariable.roleFull)
 WebUI.comment('TEST CASE: Update userName/email/userType')
 //set new userName in global variables
 GlobalVariable.userName = GlobalVariable.userName + "Updated"
-GlobalVariable.email = "Updated" + GlobalVariable.email
+GlobalVariable.contactEmail = "Updated" + GlobalVariable.contactEmail
 response = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Platform/UserUpdate', [
 	('userName') : GlobalVariable.userName,
-	('email') : GlobalVariable.email,
+	('email') : GlobalVariable.contactEmail,
 	('userId') : GlobalVariable.userId,
 	('userType') : 'Manager',
 	('emailConfirmed')	: 'false',

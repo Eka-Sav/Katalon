@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('API Coverage/ModuleSearch/DropIndex'), [ : ], F
 
 
 WebUI.comment('TEST CASE : Search new organizations and save Ids')
-responseOrg = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.firstName ] ))
+responseOrg = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.contactFirstName ] ))
 def responseOrgJson = new JsonSlurper().parseText(responseOrg.getResponseBodyContent())
 orgId = responseOrgJson.results.id
 WebUI.comment('Organization ID : ' + orgId)
@@ -55,5 +55,5 @@ WebUI.callTestCase(findTestCase('API Coverage/ModuleSearch/DropIndex'), [ : ], F
 
 
 WebUI.comment('TEST CASE : Search deleted orgs. Count 0 in result - orgs were deleted')
-responseOrg1 = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.firstName ] ))
+responseOrg1 = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Customer/Organizations/OrganizationsSearch', [ ('searchPhrase') : GlobalVariable.contactFirstName ] ))
 WS.verifyElementPropertyValue(responseOrg1, 'totalCount', 0)

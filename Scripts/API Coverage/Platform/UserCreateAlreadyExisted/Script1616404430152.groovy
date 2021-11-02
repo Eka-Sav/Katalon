@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.comment('TEST CASE: Attempt to create already existed user')
 
 response = WS.sendRequestAndVerify(findTestObject('API/backWebServices/VirtoCommerce.Platform/UserCreate', [
-	('email') : GlobalVariable.email, 
+	('email') : GlobalVariable.contactEmail, 
 	('userName') : GlobalVariable.userName
 	]))
 WS.verifyElementPropertyValue(response, 'succeeded', false)

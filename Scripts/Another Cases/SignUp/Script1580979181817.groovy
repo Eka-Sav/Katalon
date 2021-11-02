@@ -38,15 +38,15 @@ WebUI.verifyElementText(findTestObject('UI-Electronics/SignUpPage/H1SignUpPage')
 
 WebUI.click(findTestObject('UI-Electronics/SignUpPage/InputEmailSignUPPage'))
 
-WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputEmailSignUPPage'), GlobalVariable.email)
+WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputEmailSignUPPage'), GlobalVariable.contactEmail)
 
 WebUI.click(findTestObject('UI-Electronics/SignUpPage/InputFirstNameSignUPPage'))
 
-WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputFirstNameSignUPPage'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputFirstNameSignUPPage'), GlobalVariable.contactFirstName)
 
 WebUI.click(findTestObject('UI-Electronics/SignUpPage/InputLastNameSignUpPage'))
 
-WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputLastNameSignUpPage'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('UI-Electronics/SignUpPage/InputLastNameSignUpPage'), GlobalVariable.contactLastName)
 
 WebUI.click(findTestObject('UI-Electronics/SignUpPage/InputPasswordSignUpPage'))
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('UI-Electronics/SignUpPage/SubminSignUpPage'))
 
 String GetText = WebUI.getText(findTestObject('UI-Electronics/Header/HeaderLogoutText'))
 
-WebUI.verifyMatch(GetText, GlobalVariable.firstName, false)
+WebUI.verifyMatch(GetText, GlobalVariable.contactFirstName, false)
 
 WebUI.click(findTestObject('UI-Electronics/Header/HeaderLogoutButton'))
 

@@ -25,7 +25,7 @@ responseById = WS.sendRequestAndVerify(findTestObject('API/backWebServices/Virto
 
 // verify that requested user has no assigned roles 
 WS.verifyElementPropertyValue(responseById, 'userName', GlobalVariable.userName)
-WS.verifyElementPropertyValue(responseById, 'email', GlobalVariable.email)
+WS.verifyElementPropertyValue(responseById, 'email', GlobalVariable.contactEmail)
 WS.verifyElementPropertyValue(responseById, 'userType', 'Manager')
 WS.verifyElementPropertyValue(responseById, 'emailConfirmed', 'false')
 WS.verifyElementPropertyValue(responseById, 'roles', '[]')

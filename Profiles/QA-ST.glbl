@@ -37,22 +37,22 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Eve'</initValue>
-      <name>firstName</name>
+      <name>contactFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Contact QA K'</initValue>
-      <name>lastName</name>
+      <name>contactLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'BusinessQAk@BusinessQA.tt'</initValue>
-      <name>email</name>
+      <name>contactEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'095172838'</initValue>
-      <name>phone</name>
+      <name>contactPhone</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -62,32 +62,52 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Portugal'</initValue>
-      <name>country</name>
+      <name>organizationCountry</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123456'</initValue>
-      <name>zip</name>
+      <name>organizationZip</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Grad'</initValue>
-      <name>city</name>
+      <name>organizationCity</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Lenina 1'</initValue>
-      <name>address</name>
+      <name>organizationAddress</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'99'</initValue>
-      <name>apt</name>
+      <name>organizationApt</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'154dbeaf-ba9b-40c9-a2bd-df9b4b07e1de'</initValue>
       <name>organizationId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Laser printer</description>
+      <initValue>'Canon Imageclass WiFi MF232W Monochrome Laser Printer/Scanner/Copier'</initValue>
+      <name>productName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'566903892'</initValue>
+      <name>productItem</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'41112701'</initValue>
+      <name>productMfrModel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'189'</initValue>
+      <name>productPrice</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -158,11 +178,6 @@
       <description>DON'T DELETE THIS ID - Using in Order E2E test</description>
       <initValue>'3df8a98b-db6d-42d9-aa42-eb1d5099ce0c'</initValue>
       <name>productId</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>productName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

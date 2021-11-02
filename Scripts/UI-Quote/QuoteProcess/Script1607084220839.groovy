@@ -17,19 +17,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/EmailQuoteRequestPage'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/EmailQuoteRequestPage'), GlobalVariable.email)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/EmailQuoteRequestPage'), GlobalVariable.contactEmail)
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/FirstNameBillingQuote'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/FirstNameBillingQuote'), GlobalVariable.firstName)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/FirstNameBillingQuote'), GlobalVariable.contactFirstName)
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/LastNameBillingQuote'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/LastNameBillingQuote'), GlobalVariable.lastName)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/LastNameBillingQuote'), GlobalVariable.contactLastName)
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/AddressBillingQuote'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/AddressBillingQuote'), GlobalVariable.address)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/AddressBillingQuote'), GlobalVariable.organizationAddress)
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/input_Company_BillingAddressOrganization'))
 
@@ -37,11 +37,11 @@ WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/input_Company_Bill
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/ZipQuote'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/ZipQuote'), GlobalVariable.zip)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/ZipQuote'), GlobalVariable.organizationZip)
 
 WebUI.click(findTestObject('UI-Electronics/QuoteRequestPage/CityBillingQuote'))
 
-WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/CityBillingQuote'), GlobalVariable.city)
+WebUI.setText(findTestObject('UI-Electronics/QuoteRequestPage/CityBillingQuote'), GlobalVariable.organizationCity)
 
 WebUI.selectOptionByIndex(findTestObject('UI-Electronics/QuoteRequestPage/SelectCountryBillingQuote'), 2)
 

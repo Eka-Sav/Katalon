@@ -22,15 +22,15 @@ if (CheckAddressResult == false) {
 	
 	WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/InputEmailCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/InputEmailCheckout'), GlobalVariable.email)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/InputEmailCheckout'), GlobalVariable.contactEmail)
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/FirstNameCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/FirstNameCheckout'), GlobalVariable.firstName)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/FirstNameCheckout'), GlobalVariable.contactFirstName)
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/LastNameCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/LastNameCheckout'), GlobalVariable.lastName)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/LastNameCheckout'), GlobalVariable.contactLastName)
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/CompanyCheckout'))
 	
@@ -38,15 +38,15 @@ if (CheckAddressResult == false) {
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AddressCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AddressCheckout'), GlobalVariable.address)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AddressCheckout'), GlobalVariable.organizationAddress)
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AptCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AptCheckout'), GlobalVariable.apt)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/AptCheckout'), GlobalVariable.organizationApt)
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/CityCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/CityCheckout'), GlobalVariable.city)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/CityCheckout'), GlobalVariable.organizationCity)
 	
 		WebUI.selectOptionByIndex(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/SelectCountry'), 2)
 	
@@ -54,7 +54,7 @@ if (CheckAddressResult == false) {
 	
 		WebUI.click(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/ZIpCheckout'))
 	
-		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/ZIpCheckout'), GlobalVariable.zip)
+		WebUI.setText(findTestObject('UI-Electronics/CartCheckoutPage/Page_Electronics - Checkout/ZIpCheckout'), GlobalVariable.organizationZip)
 	
 		} else {
 	

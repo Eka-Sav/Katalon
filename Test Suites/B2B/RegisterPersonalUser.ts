@@ -39,7 +39,7 @@
       <guid>5d426e8c-f13f-485d-820d-c013aa666335</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Smoke Test B2B/Registration/ProcessAddress</testCaseId>
+      <testCaseId>Test Cases/1 UI-B2B smoke tests ST/LogIn page/Registration/Business account/ProcessAddress</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>02bfa078-a988-4b8c-99b6-59346a77e537</guid>
