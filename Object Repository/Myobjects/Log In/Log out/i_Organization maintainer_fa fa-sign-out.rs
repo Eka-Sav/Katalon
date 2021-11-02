@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Organization maintainer_fa fa-sign-out</name>
+   <tag></tag>
+   <elementGuidId>75d93c83-594b-4e18-870b-23500cc3193e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-sign-out</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-out</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 js&quot;]/body[@class=&quot;customer-logged-in template-customersaccount ng-scope&quot;]/header[@class=&quot;d-none d-md-block&quot;]/nav[@class=&quot;border-top border-primary border-4 small&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 text-right&quot;]/div[@class=&quot;navbar-text ng-scope&quot;]/ul[@class=&quot;list-inline list-divider m-0&quot;]/li[@class=&quot;list-inline-item&quot;]/vc-account-switch-migration[@class=&quot;d-inline-block ng-isolate-scope&quot;]/div[@class=&quot;dropdown account-switch show&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right mt-0 show&quot;]/div[@class=&quot;dropdown-item d-flex align-items-center justify-content-between p-2 ng-scope&quot;]/div[@class=&quot;d-inline-block px-2&quot;]/button[@class=&quot;btn btn-xs btn-white btn-square btn-logout shadow-sm&quot;]/i[@class=&quot;fa fa-sign-out&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+   </webElementXpaths>
+</WebElementEntity>
